@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'rm-bg'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ADC6DA39E3024B1680F78B44222ED6BC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E1B9E631478E439EA4D2307A6ECA4334 }}
