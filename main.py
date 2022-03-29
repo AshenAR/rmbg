@@ -22,7 +22,7 @@ def runner(impath):
     basepath = os.path.dirname(__file__)
 
     with CustomObjectScope({'iou': iou, 'dice_coef': dice_coef, 'dice_loss': dice_loss}):
-        model = tf.keras.models.load_model(basepath+"/model.h5")
+        model = tf.keras.models.load_model("model.h5")
 
 
     # model.summary()
